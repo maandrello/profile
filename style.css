@@ -4,25 +4,25 @@ body {
   background-color: black;
   font-family: 'Abril Fatface', sans-serif;
   color: rgb(188, 140, 242);
-  font-size: 12px;
-  line-height: 12px;
+  font-size: 18px;
+  line-height: 18px;
 }
 
 h1, h2, h3 {
   color: rgb(170, 20, 240);
   font-family: 'Abril Fatface', sans-serif;
-  font-size: 16px;
-  line-height: 16px;
+  font-size: 18px;
+  line-height: 18px;
 }
 
 a {
   text-decoration: none;
-  color: rgb(238, 238, 238);
+  color: rgb(188, 140, 242);
 }
 
 a:hover {
   text-decoration: none;
-  color: rgb(188, 140, 242);
+  color: rgb(238, 238, 238);
 }
 
 .social {
@@ -50,7 +50,7 @@ a:hover {
 
 #profile-pic {
   width: 150px;
-  border-radius: 50%;
+  border-radius: 20%;
 }
 
 @media (max-width: 960px) {
