@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+body {
+  background-color: black;
+  font-family: 'Abril Fatface', sans-serif;
+  color: rgb(188, 140, 242);
+  font-size: 12px;
+  line-height: 12px;
+}
+
+h1, h2, h3 {
+  color: rgb(170, 20, 240);
+  font-family: 'Abril Fatface', sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(238, 238, 238);
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(188, 140, 242);
+}
+
+.social {
+  display: inline-block;
+}
+
+.social > a {
+  color: rgb(170, 20, 240);
+  font-size: 24px;
+  padding: 8px;
+}
+
+.card {
+  background-color: black;
+  padding: 60px;
+  border: 5px solid rgb(170, 20, 240);
+  border-radius: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+  text-align: center;
+}
+
+#social-list {
+  padding: 0;
+}
+
+#profile-pic {
+  width: 150px;
+  border-radius: 50%;
+}
+
+@media (max-width: 960px) {
+  .card {
+    width: 960px;
+  }
+}
