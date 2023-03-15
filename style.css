@@ -68,9 +68,12 @@
   padding-left: 0;
 }
 
-/* .data-ul {
-  float:left;
-} */
+#data-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+  gap: 20px;
+}
 
 .social {
   display: inline-block;
