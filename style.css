@@ -90,3 +90,14 @@
   font-size: 24px;
   padding: 8px;
 }
+
+.certification-list {
+  display: inline-block;
+  text-align: left;
+  text-decoration: none;
+}
+
+.certification-list a {
+  /* text-decoration: none; */
+  color: #595959;
+}
