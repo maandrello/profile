@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@200&display=swap');
 
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  font: normal 15pt Sora;
+  margin: 0px;
+  border: 0;
+  padding: 0;
+}
+
 .banner {
   background-color: #8a84d4;
   text-align: center;
@@ -9,8 +20,6 @@
   justify-content: center;
   margin: -15px;
   height: 100vh;
-  /* font-family: Sora; */
-  font: normal 15pt Sora;
 }
 
 .banner h1 {
@@ -36,7 +45,6 @@
   padding: 8px;
   text-align: center;
   outline: none;
-  font: normal 15pt Sora;
 }
 
 .btn:hover {
@@ -54,12 +62,10 @@
   margin-bottom: -20px;
   text-align: center;
   border-top: 1px solid #8783D1;
-  font: normal 15pt Sora;
 }
 
 .secondary-card h2 {
   color: #8783D1;
-  font-family: Sora;
 }
 
 .secondary-card ul {
@@ -97,10 +103,44 @@
 .certification-list {
   display: inline-block;
   text-align: left;
-  text-decoration: none;
 }
 
 .certification-list a {
-  /* text-decoration: none; */
+  text-decoration: none;
   color: #595959;
+}
+
+.header-links ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #DBDBDB;
+  position: relative;
+  margin-top: 15px;
+  margin-bottom: -15px;
+  border-bottom: 1px solid #8783D1;
+  /* -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=80);
+  -moz-opacity: 0.80;
+  -khtml-opacity: 0.8;
+  opacity: 0.8; */
+}
+
+.header-links li {
+  float: left;
+}
+
+.header-links li a {
+  display: block;
+  color: #8783D1;
+  margin-top: 0;
+  text-align: center;
+  /* padding: 0 64px; */
+  text-decoration: none;
+  font-size: 8px;
+}
+
+.header-links {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
