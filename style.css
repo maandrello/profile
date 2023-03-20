@@ -13,7 +13,7 @@ body {
 
 .banner {
   background-color: #8a84d4;
-  /* text-align: center; */
+  text-align: center;
   /* padding: 7px; */
   display: flex;
   align-items: center;
@@ -97,12 +97,21 @@ body {
 
 .certification-list {
   display: inline-block;
-  text-align: left;
+  text-align: center;
+}
+
+.certification-list dd {
+  margin: 0;
 }
 
 .certification-list a {
   text-decoration: none;
   color: #595959;
+}
+
+.certification-list a:hover {
+  text-decoration: none;
+  color: #8783D1;
 }
 
 .header-links ul {
@@ -111,7 +120,6 @@ body {
   background-color: #DBDBDB;
   position: relative;
   margin: 0;
-  border-bottom: 1px solid #8783D1;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
