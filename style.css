@@ -13,8 +13,8 @@ body {
 
 .banner {
   background-color: #8a84d4;
-  text-align: center;
-  padding: 7px;
+  /* text-align: center; */
+  /* padding: 7px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -60,6 +60,8 @@ body {
 
 .secondary-card h2 {
   color: #8783D1;
+  margin: 0;
+  margin-bottom: 20px;
 }
 
 .secondary-card ul {
@@ -73,7 +75,6 @@ body {
 #data-list {
   display: flex;
   justify-content: center;
-  margin-bottom: 15px;
   gap: 20px;
   text-decoration: none;
 }
@@ -90,7 +91,7 @@ body {
 
 .social > a:hover {
   color: #8783D1;
-  font-size: 24px;
+  font-size: 38px;
   padding: 8px;
 }
 
