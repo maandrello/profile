@@ -19,13 +19,14 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  gap: 60px;
 }
 
 .banner h1 {
-  color: #595959;
+  color: #8783D1;
 }
 
-.banner p {
+.banner h2 {
   color: #DBDBDB;
 }
 
