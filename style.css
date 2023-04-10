@@ -12,7 +12,7 @@ body {
 }
 
 .banner {
-  background-color: #595959;
+  background-color: #8783D1;
   text-align: center;
   /* padding: 7px; */
   display: flex;
@@ -20,6 +20,7 @@ body {
   justify-content: center;
   height: 100vh;
   gap: 60px;
+  padding: 0px 20px;
 }
 
 .banner h1 {
@@ -27,7 +28,7 @@ body {
 }
 
 .banner h2 {
-  color: #DBDBDB;
+  color: #F8F8FC;
 }
 
 #profile-pic {
@@ -39,7 +40,7 @@ body {
   color: #8783D1;
   text-decoration: none;
   display: inline-block;
-  background-color: #dbdbdb;
+  background-color: #F8F8FC;
   border: 1px solid #8783D1;
   border-radius: 5px;
   padding: 8px;
@@ -48,13 +49,13 @@ body {
 }
 
 .btn:hover {
-  color: #595959;
-  border: 1px solid #595959;
+  color: #0E0E25;
+  border: 1px solid #0E0E25;
 }
 
 .secondary-card {
-  background-color: #DBDBDB;
-  color: #595959;
+  background-color: #F8F8FC;
+  color: #0E0E25;
   padding: 20px;
   text-align: center;
   border-top: 1px solid #8783D1;
@@ -86,7 +87,7 @@ body {
 }
 
 .social > a {
-  color: #595959;
+  color: #0E0E25;
   font-size: 38px;
   padding: 8px;
 }
@@ -108,7 +109,7 @@ body {
 
 .certification-list a {
   text-decoration: none;
-  color: #595959;
+  color: #0E0E25;
 }
 
 .certification-list a:hover {
@@ -119,7 +120,7 @@ body {
 .header-links ul {
   list-style-type: none;
   overflow: hidden;
-  background-color: #DBDBDB;
+  background-color: #F8F8FC;
   position: relative;
   margin: 0;
   display: flex;
@@ -198,10 +199,9 @@ body {
 }
 
 .CSSgal .prevNext a {
-  color: #595959;
+  color: #0E0E25;
 	position: absolute;
 	left: 0;
-
 }
 .CSSgal .prevNext a:hover {
   color: #8783D1;
@@ -221,35 +221,32 @@ body {
 	padding: 0;
 	width: 100%;
 }
+
 .CSSgal .bullets > a {
 	display: inline-block;
 	width:       8px;
 	height:      8px;
-	/* line-height: 30px; */
-	/* text-decoration: none; */
-	/* text-align: center; */
 	background: #8783D1;
-  /* size: 80px; */
 	-webkit-transition: 0.3s;
 					transition: 0.3s;
 }
 .CSSgal .bullets > a+a {
-	background: #595959;
+	background: #0E0E25;
 }
+
 .CSSgal .bullets > a:hover {
 	background: #8783D1 !important;
 }
 
 /* NAVIGATION BUTTONS */
 /* ALL: */
-.CSSgal >s:target ~ .bullets >* {      background: #595959;}
+.CSSgal >s:target ~ .bullets >* {      background: #0E0E25;}
 /* ACTIVE */
 #s1:target ~ .bullets >*:nth-child(1) {background: #8783D1;}
 #s2:target ~ .bullets >*:nth-child(2) {background: #8783D1;}
 #s3:target ~ .bullets >*:nth-child(3) {background: #8783D1;}
 #s4:target ~ .bullets >*:nth-child(4) {background: #8783D1;}
 #s5:target ~ .bullets >*:nth-child(5) {background: #8783D1;}
-/* More slides? Add here more rules */
 
 /* PREV/NEXT CONTAINERS VISIBILITY */
 /* ALL: */
@@ -260,7 +257,6 @@ body {
 #s3:target ~ .prevNext >*:nth-child(3) {visibility: visible;}
 #s4:target ~ .prevNext >*:nth-child(4) {visibility: visible;}
 #s5:target ~ .prevNext >*:nth-child(5) {visibility: visible;}
-/* More slides? Add here more rules */
 
 /* SLIDER ANIMATION POSITIONS */
 
@@ -269,7 +265,6 @@ body {
 #s3:target ~ .slider {transform: translateX(-200%); -webkit-transform: translateX(-200%);}
 #s4:target ~ .slider {transform: translateX(-300%); -webkit-transform: translateX(-300%);}
 #s5:target ~ .slider {transform: translateX(-300%); -webkit-transform: translateX(-400%);}
-/* More slides? Add here more rules */
 
 .CSSgal a {
 	border-radius: 50%;
