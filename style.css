@@ -14,7 +14,6 @@ body {
 .banner {
   background-color: #8783D1;
   text-align: center;
-  /* padding: 7px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -126,14 +125,8 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /* padding: 5px; */
   padding: 0px 60px;
   border-bottom: 1px solid #8783D1;
-  /* -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=80);
-  -moz-opacity: 0.80;
-  -khtml-opacity: 0.8;
-  opacity: 0.8; */
 }
 
 .header-links li {
@@ -145,7 +138,6 @@ body {
   color: #8783D1;
   margin-top: 0;
   text-align: center;
-  /* padding: 0 64px; */
   text-decoration: none;
   font-size: 8px;
 }
@@ -172,14 +164,6 @@ body {
 	/* font-size: 0; */
 	transition: 0.8s;
 }
-
-/* .CSSgal .slider img {
-  max-width: 100%;
-  vertical-align: middle;
-  -webkit-filter: grayscale(100%) contrast(0.9);
-  -moz-filter: grayscale(100%) contrast(0.9);
-  filter: grayscale(10%) contrast(0.9);
-} */
 
 /* SLIDES */
 
